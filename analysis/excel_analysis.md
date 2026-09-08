@@ -1,21 +1,17 @@
 # Excel Analysis
 
-## KPI formulas
-- Total Revenue: `=SUM(RetailSales[Revenue])`
-- Total Profit: `=SUM(RetailSales[Profit])`
-- Profit Margin: `=Total Profit/Total Revenue`
-- Units Sold: `=SUM(RetailSales[Quantity])`
+## Objective
+Use Excel to prepare the retail sales data, calculate core KPIs, compare product and regional performance, and produce a clean source for Power BI reporting.
 
-## Pivot Table Views
-1. Revenue and profit by product
-2. Revenue and profit by region
-3. Revenue and margin by channel
-4. Monthly revenue trend
+## Workbook Areas
+- `Data` — structured transactional table
+- `KPI Summary` — revenue, profit, margin, and units sold
+- `Product Analysis` — product-level revenue, profit, and units
+- `Region Analysis` — regional revenue and profit
+- `PowerBI Guide` — recommended dashboard design
 
-## Excel Skills Demonstrated
-- Excel Tables
-- Pivot Tables
-- SUMIFS / COUNTIFS
-- XLOOKUP-compatible workflow
-- KPI calculations
-- Dashboard-oriented data preparation
+## Core Excel Skills
+Table formatting • SUM • SUMIF • KPI calculations • structured analysis • reporting layout • dashboard preparation
+
+## Portfolio Note
+Generated practice data is used for demonstration.
