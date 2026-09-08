@@ -1,23 +1,28 @@
 # Power BI Dashboard Specification
 
+## Dashboard Goal
+Create an executive-friendly retail performance dashboard that moves from headline KPIs to performance drivers.
+
 ## Page 1 — Executive Overview
-- KPI Card: Total Revenue
-- KPI Card: Total Profit
-- KPI Card: Profit Margin
-- KPI Card: Units Sold
-- Line chart: Monthly Revenue and Profit
-- Bar chart: Revenue by Region
+**KPI Cards**
+- Total Revenue
+- Total Profit
+- Profit Margin
+- Units Sold
 
-## Page 2 — Product & Channel
-- Bar chart: Revenue by Product
-- Column chart: Profit by Product
-- Matrix: Channel, Revenue, Profit, Margin
-- Slicers: Date, Region, Product, Channel
+**Main Visuals**
+- Monthly Revenue & Profit trend
+- Revenue by Region
+- Revenue by Product
 
-## Suggested Measures
-```DAX
-Total Revenue = SUM(RetailSales[Revenue])
-Total Profit = SUM(RetailSales[Profit])
-Profit Margin = DIVIDE([Total Profit], [Total Revenue])
-Units Sold = SUM(RetailSales[Quantity])
-```
+**Slicers**
+Date • Region • Channel • Product
+
+## Page 2 — Performance Drivers
+- Product Revenue vs Profit comparison
+- Regional contribution
+- Channel profit margin
+- Units sold by product
+
+## Recommended Design Principles
+Use a clear visual hierarchy, consistent number formatting, limited visual noise, and concise titles. Keep filters visible and make the most important KPIs readable at a glance.
